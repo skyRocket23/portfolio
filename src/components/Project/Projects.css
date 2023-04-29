@@ -1,0 +1,96 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+.projects-row1{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: pink; */
+    height:50vh;
+    margin-top: 100px;
+}
+
+.projects-row2{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: orange; */
+    margin-top: 13.5px;
+    height: 506px;
+}
+
+.project1{
+    width: 373px;
+    height: 211px;
+    border-radius: 10px;
+    background-color: red;
+    background-image: url('/Users/vijaybelwal/Desktop/Personal-Portfolio-React-master/src/img/ecommerce.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.project2 {
+    width: 373px;
+    height: 211px;
+    border-radius: 10px;
+    background-color: green;
+    background-image: url('/Users/vijaybelwal/Desktop/Personal-Portfolio-React-master/src/img/hoc.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.project3 {
+    width: 373px;
+    height: 211px;
+    border-radius: 10px;
+    background-color: blue;
+    background-image: url('/Users/vijaybelwal/Desktop/Personal-Portfolio-React-master/src/img/musicapp.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.project4 {
+    width: 373px;
+    height: 211px;
+    border-radius: 10px;
+    background-color: orange;
+    background-image: url('/Users/vijaybelwal/Desktop/Personal-Portfolio-React-master/src/img/sidebar.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.project5 {
+    width: 373px;
+    height: 211px;
+    border-radius: 10px;
+    background-color: brown;
+    background-image: url('/Users/vijaybelwal/Desktop/Personal-Portfolio-React-master/src/img/sidebar.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.project6 {
+    width: 373px;
+    height: 211px;
+    border-radius: 10px;
+    background-color: violet;
+    background-image: url('/Users/vijaybelwal/Desktop/Personal-Portfolio-React-master/src/img/sidebar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects span:nth-of-type(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
